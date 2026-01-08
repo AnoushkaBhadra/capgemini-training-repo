@@ -1,6 +1,6 @@
 package variables;
 
-public class VairablesProg2 {
+public class VariablesProg2 {
 		static byte by;
 		static short sh;
 		static int i; 
