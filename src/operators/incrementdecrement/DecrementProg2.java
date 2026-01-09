@@ -1,13 +1,13 @@
 package operators.incrementdecrement;
 
-public class IncrementDecrementProg2 {
+public class DecrementProg2 {
 	public static void main(String args[]) {
-		int a = 2;
-		int b = a++ + 30;
-		System.out.println(b);
-		int c = b++ + a++;
+		int a = 5;
+		int b = a++ + --a + a++;
+		int c = b++ + ++a + a-- + --b;
 		System.out.println(a);
 		System.out.println(b);
 		System.out.println(c);
 	}
+
 }

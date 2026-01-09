@@ -1,6 +1,6 @@
 package operators.incrementdecrement;
 
-public class IncrementDecrementProg3 {
+public class IncrementProg3 {
 	public static void main(String args[]) {
 		int a = 3; 
 		int b = ++a + a++;

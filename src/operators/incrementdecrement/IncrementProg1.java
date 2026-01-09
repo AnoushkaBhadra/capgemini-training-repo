@@ -1,6 +1,6 @@
 package operators.incrementdecrement;
 
-public class IncrementDecrementProg1 {
+public class IncrementProg1 {
 	public static void main(String args[]) {
 		int a = 10;
 		System.out.println("Before pre-incrementation:" +a);
