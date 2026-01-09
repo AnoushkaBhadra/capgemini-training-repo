@@ -1,13 +1,12 @@
 package variables;
 
-public class VariablesProg5 {
+public class VariablesProg10 {
 	public static void main(String args[]) {
-		//convert int to all other literals
-		int a = 10;
+		float a = 10.0f;
 		byte b = (byte)a;
 		short sh = (short)a;
-		long l = a;
-		float f = a;
+		long l = (long)a;
+		int f = (int)a;
 		double d = a;
 		System.out.println("intger: " +a);
 		System.out.println("byte:" +b);
@@ -15,7 +14,6 @@ public class VariablesProg5 {
 		System.out.println("long: " +l);
 		System.out.println("float: "+f);
 		System.out.println("double: " +d);
-		
-		
 	}
+
 }
