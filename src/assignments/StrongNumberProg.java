@@ -1,5 +1,5 @@
 package assignments;
-
+//also called Krishnamurthy Numbers
 public class StrongNumberProg {
 	public static void main(String args[]) {
 		isStrong(145);
