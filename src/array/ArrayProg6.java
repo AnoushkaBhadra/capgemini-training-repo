@@ -1,0 +1,33 @@
+package array;
+
+public class ArrayProg6 {
+	public static void main(String[] args) {
+		int[][]a = {{7,9}, {4,2}};
+		int[][]b = {{1, 3}, {2, 3}};
+		int[][] res = sum(a,b);
+		
+		print(res);
+	}
+	
+	public static void print(int[][] res) {
+		for(int i = 0; i<res.length; i++) {
+			for(int j = 0; j<res[i].length; j++) {
+				System.out.print(res[i][j]);
+			}
+			System.out.println();
+		}
+	}
+	
+	public static int[][]sum(int[][]a, int[][]b)
+	{
+		int row= a.length;
+		int col = a[0].length;
+		int[][] res = new int[row][col];
+		for(int i = 0; i<res.length; i++) {
+			for(int j = 0; j<res.length; j++) {
+				res[i][j]=a[i][j]+b[i][j];
+			}
+		}
+		return res;
+	}
+}
