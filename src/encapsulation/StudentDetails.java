@@ -1,0 +1,31 @@
+package encapsulation;
+
+public class StudentDetails {
+
+		private int id;
+		private String name;
+		private double cgpa;
+		
+		public int getId() {
+			return id;
+		}
+		public String getName() {
+			return name;
+		}
+		public double getCgpa() {
+			return id;
+		}
+		
+		public void setId(int id) {
+			this.id=id;
+		}
+		public void setName(String name) {
+			this.name=name;
+		}
+		public void setCgpa(double cgpa) {
+			this.cgpa=cgpa;
+		}
+		
+
+
+}
